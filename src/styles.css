@@ -1,0 +1,190 @@
+:root {
+    --main-clr: #EEEDEB;
+    --secondaray-clr: #E0CCBE;
+    --tertairy-clr: #747264;
+    --last-clr: #3C3633;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: var(--main-clr);
+    color: var(--last-clr);
+  }
+  
+  .addTask,
+  .addProject,
+  .task,
+  span {
+    cursor: pointer;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  span {
+    margin-right: 4px;
+    font-size: 1.5rem;
+  }
+  
+  li {
+    margin: 0.5rem 0;
+    gap: 1rem;
+    list-style: none;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  svg {
+    width: 24px;
+    height: 24px;
+  
+    cursor: pointer;
+    fill: var(--tertairy-clr);
+  }
+  
+  h3,
+  p {
+    margin: 0;
+  }
+  
+  
+  dialog {
+    margin: 5rem auto auto auto;
+    border: 2px solid var(--last-clr);
+    background-color: var(--main-clr);
+    border-radius: 36px;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    color: var(--last-clr);
+    /* font-weight: bold; */
+  
+    font-size: 1.2rem;
+    gap: 12px;
+  }
+  
+  form > button {
+    padding: 8px;
+    width: 30%;
+  
+    font-size: 1rem;
+    /* font-weight: bold; */
+    background-color: var(--secondaray-clr);
+    color: var(--main-clr);
+    border: 1px solid var(--last-clr);
+    border-radius: 36px;
+    cursor: pointer;
+  }
+  
+  textarea {
+    padding: 0.5rem;
+    resize: none;
+    width: 80%;
+  
+    color: var(--last-clr);
+  }
+  
+  form > input {
+    padding: 0.5rem;
+    width: 80%;
+    color: var(--last-clr);
+  }
+  
+  select {
+    padding: 4px;
+  }
+  
+  header {
+    background-color: var(--secondaray-clr);
+  }
+  
+  header > h3 {
+    color: var(--last-clr);
+    padding: 1.5rem 1.5rem 1.5rem 1rem;
+    font-size: 2rem;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .addProject {
+    font-size: 1.3rem;
+    /* font-weight: 500; */
+  
+  }
+  
+  .projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    width: 20%;
+    gap: 1rem;
+    height: 100vh;
+    border-right: 4px solid var(--secondaray-clr);
+    padding: 1rem 5rem 1rem 1rem;
+  }
+  
+  .tasksContainer {
+    flex-basis: 100%;
+    padding: 5rem 5rem;
+  }
+  
+  .addTask {
+    font-size: 1.3rem;
+    /* font-weight: 500; */
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--secondaray-clr);
+    padding: 1rem 0;
+  }
+  
+  .tasks {
+    margin: 2rem 0;
+  }
+  
+  .checkBox {
+    margin: 0 4px 0 0;
+    border-radius: 100px;
+    
+    background-color: var(--secondaray-clr);
+  }
+  
+  
+  .editTask {
+    margin-left: auto;
+    margin-right: 8px;
+  }
+  
+  .taskDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  
+    gap: 8px;
+  }
+  
+  .closeModal {
+    margin-left: auto;
+  }
