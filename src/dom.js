@@ -3,7 +3,7 @@ import editTask from './editTodo.js';
 import { projectsFactory } from './projects.js';
 import { deleteProjectProperty, storeTasksDomContent, storeToLocalStorage, resetTasksDomContent, defaultCounter } from './storage.js';
 import createTodo from './createTodo.js';
-import { format } from 'date-fns';
+
 
 function setAttributes(element, attributes) {
   for (const key in attributes) {
