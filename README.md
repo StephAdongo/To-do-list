@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # To-do List
 
 ## Table of Contents
@@ -62,3 +63,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+=======
+# To-do-list
+This is a to-do list app that allows the user to add a task they`d want to accomplish and remove them at will.
+>>>>>>> 498dbc2bda2e4de2d796a83b1acf1fc362dfb74e
